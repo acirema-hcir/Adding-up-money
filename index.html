@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <title>$1,000,000,000</title>
+    <style>
+        body {
+          background-image: url('https://img1.wsimg.com/isteam/ip/8fdd2492-b963-4106-bbec-33eb95a4f8f6/om.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-position: center;
+        }
+      </style>
+ </head>   
+ <body>
+    <h1>MONEY</h1>
+    <h2>is</h2>
+    <h3>currently</h3>
+    <h4>in the state of</h4>
+    <h5><span id="number">1</span></h5>
+    <h6>dollers</h6>
+    <button onclick="recordNumber()">Press for a dollar</button>
+    <script>
+        let count = 1;
+        function recordNumber() {
+            count++;
+            document.getElementById("number").textContent = count;
+        }
+    </script>
+ </body>
+</html>
